@@ -1,0 +1,146 @@
+/* VARIABLES */
+
+//Fuentes
+$FuentePixel: 'VT323', monospace;
+
+//Paleta de Colores
+
+$rosado-intenso: #FF0080;
+$cian-brillante: #00FFFF;
+$amarillo-dorado: #FFD700;
+$naranja-claro: #FF7F50;
+$verde-lima: #32CD32;
+$morado-oscuro: #9932CC;
+$rosa-intenso: #FF69B4;
+$azul-claro: #1E90FF;
+$naranja-brillante: #FFA500;
+$verde-brillante: #00FF7F;
+$transparente: rgba(0, 0, 0, 0.534);
+$blanco: white;
+$crem: wheat;
+
+/* Navegacion */
+.navCustom {
+    background-color: $azul-claro;
+    font-family: $FuentePixel;
+    font-size: 30px;
+
+    .navLogoCustom {
+        font-size: 40px;
+    }
+
+    /* Botones Pixeles */
+    .btnPixelCustom1,
+    .btnPixelCustom2 {
+        border: none;
+        border-radius: 10px;
+        margin: 1px;
+        text-align: center;
+        transition: 1s;
+    }
+
+    .btnPixelCustom1 {
+        background-color: $morado-oscuro;
+
+        &:hover {
+            background-color: $rosado-intenso;
+        }
+    }
+
+    .btnPixelCustom2 {
+        background-color: $verde-lima;
+
+        &:hover {
+            background-color: $verde-brillante;
+        }
+    }
+
+}
+
+/* Fin Navegacion */
+
+/* Textos, Titulos, P.*/
+.titleCover {
+    text-align: center;
+    font-size: 100px;
+    font-family: $FuentePixel;
+    color: $rosado-intenso;
+    background-color: $transparente;
+    height: auto;
+    user-select: none;
+    line-height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .span {
+        color: $verde-lima;
+    }
+}
+
+.textSubTituloPixel {
+    text-align: center;
+    font-family: $FuentePixel;
+    color: $cian-brillante;
+    font-size: 50px;
+}
+
+.textArcade {
+    font-family: $FuentePixel;
+}
+
+/* FIn Textos, Titulos, P.*/
+
+/* Background */
+.indexCoverBack {
+    background-image: url("https://images3.alphacoders.com/268/268495.jpg");
+    background-size: cover;
+    height: 120vh;
+    padding-bottom: 100px;
+    //Para que el fondo quede fijo mientras se hace scroll
+    background-attachment: fixed;
+
+    .textCustom {
+        color: #00FF7F;
+    }
+}
+
+.aboutCustom {
+    background-image: url("https://images2.alphacoders.com/715/715676.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Form SignIn */
+.formSignin {
+
+    background-color: $transparente;
+
+    .formSigninText {
+
+        font-size: 40px;
+        font-family: $FuentePixel;
+        color: $rosado-intenso;
+    }
+
+    .aboutCustom {
+        background-image: url("https://images2.alphacoders.com/715/715676.png");
+        background-size: cover;
+        height: 100vh;
+    }
+
+    /* textos*/
+    .textCustom {
+        padding: 50px 20px 50px 20px;
+        font-family: $FuentePixel;
+        font-size: 30px;
+        line-height: 25px;
+        width: 80%;
+    }
+
+    /*Botones Custom*/
+    .btnCustom {
+        background-color: $rosado-intenso;
+        border-radius: 20px;
+
+    }
+}

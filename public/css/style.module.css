@@ -1,0 +1,109 @@
+/* VARIABLES */
+/* Navegacion */
+.navCustom {
+  background-color: #1E90FF;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+  /* Botones Pixeles */
+}
+.navCustom .navLogoCustom {
+  font-size: 40px;
+}
+.navCustom .btnPixelCustom1,
+.navCustom .btnPixelCustom2 {
+  border: none;
+  border-radius: 10px;
+  margin: 1px;
+  text-align: center;
+  transition: 1s;
+}
+.navCustom .btnPixelCustom1 {
+  background-color: #9932CC;
+}
+.navCustom .btnPixelCustom1:hover {
+  background-color: #FF0080;
+}
+.navCustom .btnPixelCustom2 {
+  background-color: #32CD32;
+}
+.navCustom .btnPixelCustom2:hover {
+  background-color: #00FF7F;
+}
+
+/* Fin Navegacion */
+/* Textos, Titulos, P.*/
+.titleCover {
+  text-align: center;
+  font-size: 100px;
+  font-family: "VT323", monospace;
+  color: #FF0080;
+  background-color: rgba(0, 0, 0, 0.534);
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  line-height: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.titleCover .span {
+  color: #32CD32;
+}
+
+.textSubTituloPixel {
+  text-align: center;
+  font-family: "VT323", monospace;
+  color: #00FFFF;
+  font-size: 50px;
+}
+
+.textArcade {
+  font-family: "VT323", monospace;
+}
+
+/* FIn Textos, Titulos, P.*/
+/* Background */
+.indexCoverBack {
+  background-image: url("https://images3.alphacoders.com/268/268495.jpg");
+  background-size: cover;
+  height: 120vh;
+  padding-bottom: 100px;
+  background-attachment: fixed;
+}
+.indexCoverBack .textCustom {
+  color: #00FF7F;
+}
+
+.aboutCustom {
+  background-image: url("https://images2.alphacoders.com/715/715676.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Form SignIn */
+.formSignin {
+  background-color: rgba(0, 0, 0, 0.534);
+  /* textos*/
+  /*Botones Custom*/
+}
+.formSignin .formSigninText {
+  font-size: 40px;
+  font-family: "VT323", monospace;
+  color: #FF0080;
+}
+.formSignin .aboutCustom {
+  background-image: url("https://images2.alphacoders.com/715/715676.png");
+  background-size: cover;
+  height: 100vh;
+}
+.formSignin .textCustom {
+  padding: 50px 20px 50px 20px;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+  line-height: 25px;
+  width: 80%;
+}
+.formSignin .btnCustom {
+  background-color: #FF0080;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.module.css.map */
