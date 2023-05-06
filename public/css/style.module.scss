@@ -86,6 +86,11 @@ $crem: wheat;
 
 .textArcade {
     font-family: $FuentePixel;
+    font-size: 35px;
+    color: white;
+    line-height: 30px;
+    padding: 40px;
+    background-color: $transparente;
 }
 
 /* FIn Textos, Titulos, P.*/
@@ -94,7 +99,7 @@ $crem: wheat;
 .indexCoverBack {
     background-image: url("https://images3.alphacoders.com/268/268495.jpg");
     background-size: cover;
-    height: 120vh;
+    height: auto;
     padding-bottom: 100px;
     //Para que el fondo quede fijo mientras se hace scroll
     background-attachment: fixed;
