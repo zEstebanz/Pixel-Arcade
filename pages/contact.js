@@ -11,7 +11,7 @@ const contact = () => {
             </Head>
 
             <div className={estilos.indexCoverBack}>
-                <h1 className={estilos.titleCover}><span className={estilos.span}>Contact</span></h1>
+                <h1 className={estilos.titleCover}>Pixel <span className={estilos.span}>Contact</span></h1>
 
             </div>
         </Container>
