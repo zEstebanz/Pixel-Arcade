@@ -10,7 +10,8 @@
   font-size: 40px;
 }
 .navCustom .btnPixelCustom1,
-.navCustom .btnPixelCustom2 {
+.navCustom .btnPixelCustom2,
+.navCustom .btnPixelCustom3 {
   border: none;
   border-radius: 10px;
   margin: 1px;
@@ -27,6 +28,12 @@
   background-color: #32CD32;
 }
 .navCustom .btnPixelCustom2:hover {
+  background-color: #00FF7F;
+}
+.navCustom .btnPixelCustom3 {
+  background-color: #FFA500;
+}
+.navCustom .btnPixelCustom3:hover {
   background-color: #00FF7F;
 }
 
@@ -133,6 +140,15 @@
 }
 
 /* End Box Custom */
+/* Section Contact*/
+.sectionContact {
+  background-color: #242424;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+}
+
+/* End Section Contact*/
 /* Footer */
 .footerCustom {
   background-color: #242424;

@@ -33,7 +33,8 @@ $crem: wheat;
 
     /* Botones Pixeles */
     .btnPixelCustom1,
-    .btnPixelCustom2 {
+    .btnPixelCustom2,
+    .btnPixelCustom3 {
         border: none;
         border-radius: 10px;
         margin: 1px;
@@ -51,6 +52,14 @@ $crem: wheat;
 
     .btnPixelCustom2 {
         background-color: $verde-lima;
+
+        &:hover {
+            background-color: $verde-brillante;
+        }
+    }
+
+    .btnPixelCustom3 {
+        background-color: $naranja-brillante;
 
         &:hover {
             background-color: $verde-brillante;
@@ -170,6 +179,15 @@ $crem: wheat;
     font-size: 20px;
 }
 /* End Box Custom */
+
+/* Section Contact*/
+.sectionContact{
+    background-color: $dark;
+    color: white;
+    font-family: $FuentePixel;
+    font-size: 30px;
+}
+/* End Section Contact*/
 
 /* Footer */
 .footerCustom {
