@@ -10,7 +10,9 @@ const contact = () => {
             </Head>
 
             <div className={estilos.indexCoverBack}>
-                <h1 className={estilos.titleCover}>Pixel <span>About</span></h1>
+
+            <h1 className={estilos.titleCover}>Pixel<span className={estilos.span}> About</span></h1>
+
                 <p className={estilos.textArcade}>Hace muchos años, en una pequeña ciudad, existía una tienda de videojuegos llamada "Pixel Arcade". El dueño de la tienda, un apasionado de los videojuegos retro, había abierto la tienda para compartir su amor por los juegos clásicos con la comunidad local.
                 </p>
 

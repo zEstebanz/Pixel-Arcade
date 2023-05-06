@@ -7,7 +7,7 @@ const contact = () => {
 
         <Container>
             <Head>
-                <title>Pixel Arcade - contact</title>
+                <title>Pixel Arcade - Contact</title>
             </Head>
 
             <div className={estilos.indexCoverBack}>

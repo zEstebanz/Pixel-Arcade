@@ -111,4 +111,31 @@
 .formSignin .btnCustom {
   background-color: #FF0080;
   border-radius: 20px;
-}/*# sourceMappingURL=style.module.css.map */
+}
+
+/*Botones Custom */
+.btnCustomLargo {
+  width: 350px;
+}
+
+/* End Botones Custom*/
+/* Footer */
+.footerCustom {
+  background-color: #242424;
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.footerCustomRS {
+  color: #FF0080;
+}
+
+.footerCustomRS:hover {
+  transition: 0.5s;
+  color: #32CD32;
+}
+
+/* End Footer *//*# sourceMappingURL=style.module.css.map */

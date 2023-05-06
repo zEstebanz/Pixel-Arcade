@@ -31,7 +31,7 @@ const Navigation = () => {
                         </li>
                         <li className="nav-item">
                             <Link href="/game" className="nav-link">
-                                Game
+                                Games
                             </Link>
                         </li>
 

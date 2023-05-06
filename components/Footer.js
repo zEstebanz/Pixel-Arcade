@@ -1,6 +1,9 @@
+import estilos from '../public/css/style.module.css'
+import Link from 'next/link';
+
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white py-5">
+        <footer className={`${estilos.footerCustom} text-white py-5`}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
@@ -15,20 +18,19 @@ const Footer = () => {
                     <div className="col-md-4">
                         <h4 className="mb-4">Redes sociales</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">LinkedIn</a></li>
+
+                            <li><a href="#" className={estilos.footerCustomRS}><i class="nes-icon instagram is-large"></i></a></li>
+                            <li><a href="#" className={estilos.footerCustomRS}> <i class="nes-icon twitter is-large"></i></a></li>
+                            <li><a href="#" className={estilos.footerCustomRS}><i class="nes-icon whatsapp is-large"></i></a></li>
+
                         </ul>
                     </div>
                     <div className="col-md-4">
-                        <h4 className="mb-4">Suscríbete</h4>
-                        <form>
-                            <div className="form-group">
-                                <input type="email" className="form-control" placeholder="Email" />
-                            </div>
-                            <button type="submit" className="btn btn-primary">Suscríbete</button>
-                        </form>
+                        <h4 className="mb-4">Signin</h4>
+                        <Link class={`${estilos.btnCustomLargo} nes-btn`} href="/signin">Signin</Link>
+                        <hr></hr>
+                        <h4 className="mb-4">Login</h4>
+                        <Link class={`${estilos.btnCustomLargo} nes-btn`} href="/login">Login</Link>
                     </div>
                 </div>
                 <hr />

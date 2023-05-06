@@ -11,9 +11,17 @@ const index = () => {
             </Head>
 
             <div className={estilos.indexCoverBack}>
-                <h1 className={estilos.titleCover}>Pixel<span className={estilos.span}> Arcade</span></h1>
 
+                <h1 className={estilos.titleCover}>Pixel<span className={estilos.span}> Arcade</span></h1>
+                {/* <section class="message -left">
+                    <i class="nes-bcrikko"></i>
+
+                    <div class="nes-balloon from-left">
+                        <p>Hello Player of Arcade, Welcome to the system</p>
+                    </div>
+                </section> */}
             </div>
+
         </Container>
     )
 }

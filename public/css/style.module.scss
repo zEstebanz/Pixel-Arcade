@@ -15,7 +15,9 @@ $rosa-intenso: #FF69B4;
 $azul-claro: #1E90FF;
 $naranja-brillante: #FFA500;
 $verde-brillante: #00FF7F;
+$dark: #242424;
 $transparente: rgba(0, 0, 0, 0.534);
+$transparenteOscuro: rgba(0, 0, 0, 0.801);
 $blanco: white;
 $crem: wheat;
 
@@ -149,3 +151,29 @@ $crem: wheat;
 
     }
 }
+
+/*Botones Custom */
+.btnCustomLargo{
+    width: 350px;
+}
+/* End Botones Custom*/
+
+
+/* Footer */
+
+.footerCustom {
+    background-color: $dark;
+    font-family: $FuentePixel;
+    font-size: 20px;
+    user-select: none;
+}
+
+.footerCustomRS {
+    color: $rosado-intenso;
+}
+.footerCustomRS:hover {
+    transition: 0.5s;
+    color: $verde-lima;
+}
+
+/* End Footer */
