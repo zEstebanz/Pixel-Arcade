@@ -79,6 +79,10 @@
   color: #00FF7F;
 }
 
+.gameBack {
+  background-color: #242424;
+}
+
 .aboutCustom {
   background-image: url("https://images2.alphacoders.com/715/715676.png");
   background-size: cover;
@@ -119,6 +123,16 @@
 }
 
 /* End Botones Custom*/
+/* Box Custom */
+.boxGameCustom {
+  background-color: #242424;
+  box-shadow: 10px 10px #00FF7F;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 20px;
+}
+
+/* End Box Custom */
 /* Footer */
 .footerCustom {
   background-color: #242424;

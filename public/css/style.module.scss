@@ -111,6 +111,9 @@ $crem: wheat;
     }
 }
 
+.gameBack{
+    background-color: $dark;
+}
 .aboutCustom {
     background-image: url("https://images2.alphacoders.com/715/715676.png");
     background-size: cover;
@@ -158,9 +161,17 @@ $crem: wheat;
 }
 /* End Botones Custom*/
 
+/* Box Custom */
+.boxGameCustom{
+    background-color: $dark;
+    box-shadow: 10px 10px #00FF7F;
+    color: white;
+    font-family: $FuentePixel;
+    font-size: 20px;
+}
+/* End Box Custom */
 
 /* Footer */
-
 .footerCustom {
     background-color: $dark;
     font-family: $FuentePixel;
