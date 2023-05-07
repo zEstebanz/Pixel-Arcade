@@ -90,6 +90,7 @@
 .indexCoverBack {
   background-image: url("https://images3.alphacoders.com/268/268495.jpg");
   height: auto;
+  padding-top: 100px;
   padding-bottom: 100px;
   background-attachment: fixed;
 }
@@ -148,6 +149,10 @@
   color: white;
   font-family: "VT323", monospace;
   font-size: 20px;
+}
+
+.boxGamePlayCustom {
+  padding-top: 100px;
 }
 
 /* End Box Custom */

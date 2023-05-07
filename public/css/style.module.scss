@@ -115,13 +115,13 @@ $crem: wheat;
     padding: 40px;
     background-color: $transparente;
 }
-
 /* FIn Textos, Titulos, P.*/
 
 /* Background */
 .indexCoverBack {
     background-image: url("https://images3.alphacoders.com/268/268495.jpg");
     height: auto;
+    padding-top: 100px;
     padding-bottom: 100px;
     //Para que el fondo quede fijo mientras se hace scroll
     background-attachment: fixed;
@@ -188,6 +188,9 @@ $crem: wheat;
     color: white;
     font-family: $FuentePixel;
     font-size: 20px;
+}
+.boxGamePlayCustom{
+    padding-top: 100px;
 }
 /* End Box Custom */
 

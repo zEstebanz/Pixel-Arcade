@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navigation = () => {
     return (
-        <nav className={`${estilos.navCustom} navbar navbar-expand-lg navbar-light `}>
+        <nav className={`${estilos.navCustom} navbar navbar-expand-lg navbar-light fixed-top`}>
    
             <div className="container-fluid">
                 <Link href="/" className={`${estilos.navLogoCustom} navbar-brand`}>
