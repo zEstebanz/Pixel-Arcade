@@ -1,0 +1,12 @@
+CREATE DATABASE pixelarcade IF NOT EXISTS;
+
+USE pixelarcade;
+
+CREATE TABLE user(
+	id INT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    admin BOOLEAN NOT NULL DEFAULT 0,
+    PRIMARY KEY (id)
+);

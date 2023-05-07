@@ -22,7 +22,7 @@ const index = () => {
                     <p>¿Quieres jugar a juegos online? Haz clic en el botón de abajo para empezar.</p>
                     <Link href="game"  className="nes-btn is-success">Jugar ahora</Link>
 
-                    <p className='mt-5' >¿Quieres registrarte?</p>
+                    <p className='mt-5' >¿Quieres registrarte? Registrate aqui</p>
 
                     <Link href="game"  className="nes-btn">Registrarte</Link>
                     <p className='mt-5'>¿Ya tienes una cuenta? Inicia secion aqui</p>
