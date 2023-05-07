@@ -27,7 +27,7 @@ const FormSignin = () => {
                                 <label htmlFor="age" className="form-label">Edad</label>
                                 <input type="number" className="form-control" id="age" name="age" min={10} required />
                             </div>
-                            <button type="submit" className={`${estilos.formSigninText} btn btn-primary mt-4`} >Registrarse</button>
+                            <button type="submit" className={`${estilos.formSigninText} nes-btn is-success mt-4`} >Registrarse</button>
                         </form>
                     </div>
                 </div>

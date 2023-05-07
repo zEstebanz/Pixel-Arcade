@@ -21,7 +21,7 @@ const FormLogin = () => {
                                 <input type="password" className="form-control" id="password" name="password" required />
                             </div>
 
-                            <button type="submit" className={`${estilos.formSigninText} btn btn-primary mt-4`} >Ingresar</button>
+                            <button type="submit" className={`${estilos.formSigninText} nes-btn is-success mt-4`} >Ingresar</button>
                         </form>
                     </div>
                 </div>
